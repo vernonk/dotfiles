@@ -1,0 +1,4 @@
+# Start a simple server from a directory, optionally specifying the port
+local port="${1:-4040}"
+open "http://localhost:${port}/"
+python -m SimpleHTTPServer "$port"

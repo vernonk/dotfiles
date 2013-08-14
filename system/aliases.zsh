@@ -8,3 +8,13 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+# alias ll="ls -alGh"
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias cl="clear"
+
+#Allow local file access in Chrome
+alias chromelocal="open /Applications/Google\ Chrome.app --args --allow-file-access-from-files"
+
+# ST3
+alias subl3="open -a Sublime\ Text"
