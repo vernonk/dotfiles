@@ -1,3 +1,9 @@
+# Vernon's dotfiles
+
+These files are a fork from https://github.com/holman/dotfiles. Don't use these, visit @holman's repo instead.
+
+---
+
 # holman does dotfiles
 
 ## dotfiles
